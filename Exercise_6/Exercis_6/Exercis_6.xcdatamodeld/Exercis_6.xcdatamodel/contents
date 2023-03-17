@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H2026" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Booking" representedClassName="Booking" syncable="YES" codeGenerationType="class">
+        <attribute name="checkin" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="checkout" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="hotelname" optional="YES" attributeType="String"/>
+        <attribute name="numpeople" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="total" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Login" representedClassName="Login" syncable="YES" codeGenerationType="class">
+        <attribute name="checkin" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="checkout" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="gmail" optional="YES" attributeType="String"/>
+        <attribute name="hotelname" optional="YES" attributeType="String"/>
+        <attribute name="numpeople" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="total" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Booking" positionX="160" positionY="192" width="128" height="118"/>
+        <element name="Login" positionX="160" positionY="192" width="128" height="163"/>
+    </elements>
+</model>
